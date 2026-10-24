@@ -1,7 +1,7 @@
 /* 07 Results — Figma 324:999. Keep chapter styles isolated. */
-@font-face { font-family: "Chiron GoRound TC Results"; font-style: normal; font-weight: 400; font-display: swap; src: url("./public/assets/chiron-results-400.ttf") format("truetype"); }
-@font-face { font-family: "Chiron GoRound TC Results"; font-style: normal; font-weight: 500; font-display: swap; src: url("./public/assets/chiron-results-500.ttf") format("truetype"); }
-@font-face { font-family: "Chiron GoRound TC Results"; font-style: normal; font-weight: 700; font-display: swap; src: url("./public/assets/chiron-results-700.ttf") format("truetype"); }
+@font-face { font-family: "Chiron GoRound TC Results"; font-style: normal; font-weight: 400; font-display: swap; src: url("./public/assets/chiron-results-400.ttf?v=tools9") format("truetype"); }
+@font-face { font-family: "Chiron GoRound TC Results"; font-style: normal; font-weight: 500; font-display: swap; src: url("./public/assets/chiron-results-500.ttf?v=tools9") format("truetype"); }
+@font-face { font-family: "Chiron GoRound TC Results"; font-style: normal; font-weight: 700; font-display: swap; src: url("./public/assets/chiron-results-700.ttf?v=tools9") format("truetype"); }
 
 .results {
   --results-line: #d4d7cc;
@@ -123,3 +123,7 @@
 /* Separate each member's contribution with a white card. */
 .results-team-card{background:#fff;border-top:0;border-radius:20px;padding:24px 28px}
 @media(max-width:700px){.results-team-card{padding:24px 20px}}
+
+.results-collaboration .collaboration-decision{grid-column:1/-1}
+
+.results-future-list li{background:#fff}
